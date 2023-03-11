@@ -1,0 +1,68 @@
+body{
+    background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  max-width: 100%;
+}
+p{
+    font-family: Courier New;
+    position: relative;
+    color: black;
+}h1{
+    color: white;
+    font-family: Courier New;
+    font: size 10px;
+}
+header{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top:0 ;
+    left: 0;
+    display:flex;
+    justify-content : space-between;
+    align-items: center;
+    padding: 0 5%;
+    box-sizing: border-box;
+    height: 100px;
+    transition: 0.5s;
+    }
+.logo{
+    background-size:absolute;
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+.carro{
+    position: absolute;
+    top: 0px; left: 96%;
+}
+nav{
+    text-align: center;
+    background: black;
+    height: 50px;
+    width: 400px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    padding: 5px;
+    top: 20px;
+  position: relative;
+  top: 0px; left: 400px; right: 0;
+
+}
+.logo{
+    position:absolute;
+    display: flex;
+    background: white;
+    transform: translate(230%,-50%);
+    padding: 4px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+

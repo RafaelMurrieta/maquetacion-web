@@ -1,0 +1,20 @@
+.cover {
+    height:480px;
+    background-image:url(https://cdn.glitch.global/b4429982-624a-4a3f-ac72-fa71fb0f1f28/rsz_2nathan-dumlao-71u2foofi-u-unsplash.jpg?v=1647733069076https://cdn.glitch.global/b4429982-624a-4a3f-ac72-fa71fb0f1f28/rsz_2nathan-dumlao-71u2foofi-u-unsplash.jpg?v=1647733069076);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(0,0,0,0.5);
+    background-blend-mode: darken
+  }
+.card{
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .card-tittle{
+   min-height:3rem;  
+  }
+  .card-text{
+    min-height:10rem;
+  }

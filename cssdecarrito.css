@@ -1,0 +1,25 @@
+nav{
+    background: black;
+}
+
+.box{
+    position:relative;
+    top: 0px;
+    height: 600px;
+    width: 775px;
+    background: gray;
+    border: 4px;
+    border-radius: 3px;
+    }
+
+h2{
+    top: 20px;
+    text-align: center;
+    position: relative;
+    color:black;
+    font-family:Courier New, Courier, monospace;
+}
+.carro{
+    position: absolute;
+    top: 0px; left: 96%;
+}
